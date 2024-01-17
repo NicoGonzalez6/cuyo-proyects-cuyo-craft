@@ -123,4 +123,57 @@ export const themePreset = {
     regular: "var(--cc-typo_font-weight--regular)",
     light: "var(--cc-typo_font-weight--light)",
   },
+  fontFamily: {
+    sans: "var(--cc-typo_font-family--sans)",
+  },
+  fontSize: {
+    "8xl": [
+      "var(--cc-typo_font-size--8xl)",
+      { lineHeight: "var(--cc-typo_line-height--8xl)" },
+    ],
+    "7xl": [
+      "var(--cc-typo_font-size--7xl)",
+      { lineHeight: "var(--cc-typo_line-height--7xl)" },
+    ],
+    "6xl": [
+      "var(--cc-typo_font-size--6xl)",
+      { lineHeight: "var(--cc-typo_line-height--6xl)" },
+    ],
+    "5xl": [
+      "var(--cc-typo_font-size--5xl)",
+      { lineHeight: "var(--cc-typo_line-height--5xl)" },
+    ],
+    "4xl": [
+      "var(--cc-typo_font-size--4xl)",
+      { lineHeight: "var(--cc-typo_line-height--4xl)" },
+    ],
+    "3xl": [
+      "var(--cc-typo_font-size--3xl)",
+      { lineHeight: "var(--cc-typo_line-height--3xl)" },
+    ],
+    "2xl": [
+      "var(--cc-typo_font-size--2xl)",
+      { lineHeight: "var(--cc-typo_line-height--2xl)" },
+    ],
+    xl: [
+      "var(--cc-typo_font-size--xl)",
+      { lineHeight: "var(--cc-typo_line-height--xl)" },
+    ],
+    lg: [
+      "var(--cc-typo_font-size--lg)",
+      { lineHeight: "var(--cc-typo_line-height--lg)" },
+    ],
+    base: [
+      "var(--cc-typo_font-size--base)",
+      { lineHeight: "var(--cc-typo_line-height--base)" },
+    ],
+    sm: [
+      "var(--cc-typo_font-size--sm)",
+      { lineHeight: "var(--cc-typo_line-height--sm)" },
+    ],
+    xs: [
+      "var(--cc-typo_font-size--xs)",
+      { lineHeight: "var(--cc-typo_line-height--xs)" },
+    ],
+  },
 };

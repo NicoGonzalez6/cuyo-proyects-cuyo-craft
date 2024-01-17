@@ -1,6 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
 :root {
   --cc-typo_font-weight--bold: 700;
   --cc-typo_font-weight--medium: 500;
   --cc-typo_font-weight--regular: 400;
   --cc-typo_font-weight--light: 300;
+
+  --cc-typo_font-family--sans: "Montserrat", sans-serif;
+
+  --base: 16;
+
+  --cc-typo_font-size--8xl: calc((56 / var(--base) * 1rem));
+  --cc-typo_line-height--8xl: 89px;
+
+  --cc-typo_font-size--7xl: calc((48 / var(--base) * 1rem));
+  --cc-typo_line-height--7xl: 76px;
+
+  --cc-typo_font-size--6xl: calc((40 / var(--base) * 1rem));
+  --cc-typo_line-height--6xl: 65px;
+
+  --cc-typo_font-size--5xl: calc((36 / var(--base) * 1rem));
+  --cc-typo_line-height--5xl: 55px;
+
+  --cc-typo_font-size--4xl: calc((32 / var(--base) * 1rem));
+  --cc-typo_line-height--4xl: 47px;
+
+  --cc-typo_font-size--3xl: calc((28 / var(--base) * 1rem));
+  --cc-typo_line-height--3xl: 39px;
+
+  --cc-typo_font-size--2xl: calc((24 / var(--base) * 1rem));
+  --cc-typo_line-height--2xl: 39px;
+
+  --cc-typo_font-size--xl: calc((20 / var(--base) * 1rem));
+  --cc-typo_line-height--xl: 33px;
+
+  --cc-typo_font-size--lg: calc((18 / var(--base) * 1rem));
+  --cc-typo_line-height--lg: 27px;
+
+  --cc-typo_font-size--base: calc((16 / var(--base) * 1rem));
+  --cc-typo_line-height--base: 24px;
+
+  --cc-typo_font-size--sm: calc((14 / var(--base) * 1rem));
+  --cc-typo_line-height--sm: 20px;
+
+  --cc-typo_font-size--xs: calc((12 / var(--base) * 1rem));
+  --cc-typo_line-height--xs: 18px;
 }
