@@ -1,10 +1,10 @@
 {
   "name": "@cuyo-proyects/cuyo-craft",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Preset configuration for Tailwind CSS for cuyo proyects ui proyects",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc && cp src/index.css dist && cp -r src/tokens dist "
+    "build": "tsc && cp src/index.css dist && cp -r src/tokens dist"
   },
   "repository": {
     "type": "git",
