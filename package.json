@@ -1,6 +1,6 @@
 {
   "name": "@cuyo-proyects/cuyo-craft",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Preset configuration for Tailwind CSS for cuyo proyects ui proyects",
   "main": "dist/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "typescript": "^5.3.3"
   },
   "files": [
-    "dist",
+    "src",
     "README.md",
     "package.json"
   ]
