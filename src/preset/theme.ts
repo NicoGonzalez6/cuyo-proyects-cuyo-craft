@@ -99,7 +99,8 @@ export const themePreset = {
     black: "var(--cc-color_black)",
   },
   spacing: {
-    1: "var(--cc-space_0)",
+    0: "var(--cc-space_0)",
+    1: "var(--cc-space_1)",
     2: "var(--cc-space_2)",
     3: "var(--cc-space_3)",
     4: "var(--cc-space_4)",
