@@ -1,5 +1,4 @@
-name: Publish package
-
+name: Release
 on:
   push:
     branches:
@@ -7,20 +6,26 @@ on:
 
 jobs:
   release:
-    name: 🚀 release
+    name: Release
     runs-on: ubuntu-latest
     steps:
-      - name: 📚 checkout
-        uses: actions/checkout@v2.1.1
-      - uses: actions/setup-node@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
         with:
-          node-version: "20.x"
-          registry-url: https://registry.npmjs.org
+          fetch-depth: 0
+      - name: Automatic GitHub Release
+        uses: justincy/github-action-npm-release@2.0.1
+        id: release
+      - uses: actions/setup-node@v3
+        if: steps.release.outputs.released == 'true'
+        with:
+          registry-url: "https://npm.pkg.github.com"
       - name: 🚀 install
         run: npm install
       - name: 🚀 build
         run: npm run build
-      - name: 🚀 publish
-        run: npm publish --access public
+      - name: Publish
+        if: steps.release.outputs.released == 'true'
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
