@@ -10,13 +10,13 @@
 
 To use this library you will need [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-# Inside your proyect run
+## Install the library
 ```bash
 $ npm i @cuyo-proyects/cuyo-craft
 # done!
 ```
 
-# You need to import the preset to TW config
+## You need to import the preset to TW config
 ```javascript
 import themePreset from "@cuyo-proyects/cuyo-craft/dist";
 /** @type {import('tailwindcss').Config} */
@@ -24,6 +24,9 @@ export default {
   content: ["./src/**/*.{html,js,ts,tsx}"],
   presets: [themePreset],
 };
-# import the css from tw + personal css tokens in your index.css
-$ @import "@cuyo-proyects/cuyo-craft/dist";
+```
+
+## import the css from tw + personal css tokens in your index.css
+```javascript
+@import "@cuyo-proyects/cuyo-craft/dist";
 ```
