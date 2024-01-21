@@ -10,7 +10,7 @@
 
 To use this library you will need [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
 
-```javascript
+```bash
 # Inside your proyect run
 $ npm i @cuyo-proyects/cuyo-craft
 
